@@ -1,4 +1,14 @@
-
 # Xcode (user-specific)
 xcuserdata/
 *.xcuserstate
+
+# Build / Derived data
+DerivedData/
+build/
+
+# SwiftPM (si usas paquetes)
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
