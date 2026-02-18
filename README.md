@@ -22,3 +22,4 @@ Aplicación iOS para registrar y visualizar actividades de carrera (RunTracker) 
 - Extras (UI/UX, filtros, etc.): 1/10  
 
 > Nota: esta autoevaluación se ajustará según las partes completadas.
+
