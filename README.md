@@ -23,3 +23,5 @@ Aplicación iOS para registrar y visualizar actividades de carrera (RunTracker) 
 
 > Nota: esta autoevaluación se ajustará según las partes completadas.
 
+
+
