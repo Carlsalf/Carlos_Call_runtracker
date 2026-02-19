@@ -14,15 +14,16 @@ Permite almacenar actividades de forma persistente y calcular estadísticas bás
 - **Persistence.swift:** configuración del stack de CoreData.
 
 ## Dificultades y solución
-- Problemas iniciales con tipos de entidad (`RunEntity`) no reconocidos → solución: configuración correcta del modelo CoreData y `import CoreData`.
+- Problemas iniciales con tipos de entidad (**RunEntity**) no reconocidos → solución: configuración correcta del modelo CoreData y `import CoreData`.
 - Validaciones de entrada en el formulario de creación.
 - Actualización automática de la vista mediante `@FetchRequest`.
 
 ## Propuesta de evaluación (sobre 10)
-- Estructura del proyecto + navegación básica: 2/10
-- Registro y listado funcionando: 3/10
-- Detalle + validaciones: 2/10
-- Persistencia correctamente implementada: 2/10
-- Extras (UI/UX, mejoras adicionales): 1/10
+- Estructura del proyecto + navegación básica: **2/10**
+- Registro y listado funcionando: **3/10**
+- Detalle + validaciones: **2/10**
+- Persistencia correctamente implementada: **2/10**
+- Extras (UI/UX, mejoras adicionales): **1/10**
 
 > Nota: la autoevaluación podrá ajustarse según los criterios finales de corrección.
+
