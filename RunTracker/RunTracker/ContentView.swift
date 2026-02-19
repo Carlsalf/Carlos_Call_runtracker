@@ -10,15 +10,29 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            RunsListView()
+            EntrenoView()
                 .tabItem {
-                    Label("Runs", systemImage: "figure.run")
+                    Label("Entreno", systemImage: "play.circle.fill")
                 }
 
-            StatsView()
+            RunsListView()
                 .tabItem {
-                    Label("Stats", systemImage: "chart.bar")
+                    Label("Historial", systemImage: "doc.text")
+                }
+
+            PerfilView()
+                .tabItem {
+                    Label("Perfil", systemImage: "person")
+                }
+
+            OpcionesView()
+                .tabItem {
+                    Label("Opciones", systemImage: "gearshape")
                 }
         }
     }
+}
+
+#Preview {
+    ContentView()
 }
